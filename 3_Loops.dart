@@ -31,6 +31,7 @@ void main(List<String> args) {
  print("do while: $sum");
 
  //infinite loops
+
  int control = 0;
  for (var i = 0; true; i++) {
    print(i);
@@ -38,13 +39,14 @@ void main(List<String> args) {
     break;
    }
  }
+
+
  control = 0;
  while (true) {
   print(++control);
   if (control >= 15) {
     break;
   }
-   
  }
 
 }
